@@ -33,9 +33,27 @@
     padding: 1rem;
 }
 
-.sidebar .activities ul li, .sidebar .logo ul li, .sidebar .settings ul li{
+.sidebar .activities ul li, .sidebar .logo, .sidebar .settings ul li{
     display: flex;
     align-items: center;
+    gap: 1rem;
+}
+.sidebarLogo {
+    width: 5rem;
+}
+.sideText, .logoText {
+    color: black;
+}
+
+.sideText {
+    font-size: medium;
+}
+
+.logoText {
+    font-size: xx-large;
+}
+.sidebarIcons {
+    width: 2rem;
 }
 .mainContent {
     grid-column: 2/6;
@@ -163,7 +181,7 @@
 }
 
 .headerButton {
-    color: white;
+    color: black;
     background-color: gold;
     border-radius: 2rem;
     border-style:hidden;
